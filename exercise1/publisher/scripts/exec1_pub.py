@@ -5,7 +5,7 @@ from std_msgs.msg import Int32
 
 class exec1_pub:
     def __init__(self):
-        self.pub = rospy.Publisher('/sun', Int32, queue_size=10)
+        self.pub = rospy.Publisher('/yang', Int32, queue_size=10)
         rospy.init_node('exec1_pub', anonymous=True)
         self.rate = rospy.Rate(20) # 20hz
         self.n = 4
