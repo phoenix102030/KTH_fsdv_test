@@ -7,7 +7,7 @@ class exec1_sub:
     def __init__(self):
         rospy.init_node('exec1_sub', anonymous=True)
         self.publisher = rospy.Publisher('/kthfs/result', Float32, queue_size=10)
-        rospy.Subscriber('/sun', Int32, self.callback)
+        rospy.Subscriber('/yang', Int32, self.callback)
 
     def callback(self, data):
         q = 0.15
