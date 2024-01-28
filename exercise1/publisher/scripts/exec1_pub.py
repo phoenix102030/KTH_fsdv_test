@@ -9,7 +9,7 @@ class exec1_pub:
         rospy.init_node('exec1_pub', anonymous=True)
         self.rate = rospy.Rate(20) # 20hz
         self.n = 4
-        self.k = 0
+        self.k = 1
 
     def run(self):
         while not rospy.is_shutdown():
