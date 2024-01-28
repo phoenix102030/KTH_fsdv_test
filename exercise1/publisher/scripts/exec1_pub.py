@@ -14,7 +14,7 @@ class exec1_pub:
     def run(self):
         while not rospy.is_shutdown():
             self.k = self.k + self.n
-            rospy.loginfo("Publishing: %d", self.k)
+            rospy.loginfo("the msg published: %d", self.k)
             self.pub.publish(self.k)
             self.rate.sleep()
 
