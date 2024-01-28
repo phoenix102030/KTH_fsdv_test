@@ -44,27 +44,27 @@ This Git repository contains a set of ROS (Robot Operating System) packages desi
     - **Terminal 2:** Run the publisher node
 
         ```bash
-        rosrun <package_name> publisher_node.py
+        rosrun publisher exec1_pub.py
         ```
 
     - **Terminal 3:** Run the subscriber node
 
         ```bash
-        rosrun <package_name> subscriber_node.py
+        rosrun subscriber exec1_sub.py
         ```
 
 ### Exercise 2 (No ROS Required)
 
-- Navigate to the `Ex2` folder:
+- Navigate to the `kthfsdv-plotting` folder:
 
     ```bash
-    cd Ex2
+    cd kthfsdv-plotting
     ```
 
 - Run the Python script:
 
     ```bash
-    python FunctionVisualiser.py
+    python Visualisation.py
     ```
 
 ## Additional Information
