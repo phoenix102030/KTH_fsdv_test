@@ -1,5 +1,5 @@
 # KTH_fsdv_test
-The entry tests for the KTH Fomular DV group
+The entry tests for the KTH Formula DV group
 ## The training exercises for recruitment
 This Git repository contains a set of ROS (Robot Operating System) packages designed for various exercises. Follow the instructions below to set up and run these packages.
 
